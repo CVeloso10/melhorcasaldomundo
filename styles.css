@@ -28,23 +28,34 @@ body {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     max-width: 600px;
     width: 80%;
-    text-align: left;
+    text-align: justify;
     display: none;
   }
   
   .page img {
-    max-width: 200%; /* Ajuste o valor conforme necessário */
+    max-width: 100%; /* Ajuste o valor conforme necessário */
     height: auto;
   }
   
   #prev-page, #next-page {
-    background-color: #4CAF50;
-    color: white;
+    background-color: #e280e2;
+    color: rgb(0, 0, 0);
     padding: 10px 20px;
     border: none;
     text-decoration: none;
-    font-size: 16px;
-    margin: 10px;
+    font-family: Cursive, sans-serif; /* Substitua 'Cursive' pela fonte desejada */
+    font-size: 21px; /* Substitua pelo tamanho desejado */
+    font-weight: bold;
+    margin: 5px;
     cursor: pointer;
   }
   
+  h2, p {
+    font-family: Cursive, sans-serif; /* Substitua 'Cursive' pela fonte desejada */
+    font-size: 18px; /* Substitua pelo tamanho desejado */
+    font-weight: bold;
+  }
+  h2{
+    font-family: Cursive, sans-serif; /* Substitua 'Cursive' pela fonte desejada */
+    font-size: 25px; /* Substitua pelo tamanho desejado */
+  }
