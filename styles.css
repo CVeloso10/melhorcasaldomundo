@@ -33,7 +33,7 @@ body {
   }
   
   .page img {
-    max-width: 100%; /* Ajuste o valor conforme necessário */
+    max-width: 200%; /* Ajuste o valor conforme necessário */
     height: auto;
   }
   
