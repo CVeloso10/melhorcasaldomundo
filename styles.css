@@ -18,7 +18,10 @@ body {
   }
   
   .page {
-    background-color: #fff;
+    background-color: #ffe6e6;
+    background-image: url('https://static.mobly.com.br/p/Fran-Adesivo-Papel-de-Parede-Romantico-Mod-012-60x300cm-1905-2815401-3-zoom.jpg'); /* Substitua pelo caminho real da sua imagem de corações */
+    background-size: cover;
+    background-blend-mode: overlay;
     border: 1px solid #ddd;
     padding: 20px;
     margin: 20px;
