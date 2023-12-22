@@ -1,61 +1,61 @@
 body {
-  font-family: Arial, sans-serif;
-  margin: 0;
-  padding: 0;
-  background-color: #ffe6e6;
-  background-image: url('https://static.mobly.com.br/p/Fran-Adesivo-Papel-de-Parede-Romantico-Mod-012-60x300cm-1905-2815401-3-zoom.jpg'); /* Substitua pelo caminho real da sua imagem de corações */
-  background-size: cover;
-  background-blend-mode: overlay;
-  text-align: center;
-}
-
-#book-container {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  height: 100vh;
-}
-
-.page {
-  background-color: #ffe6e6;
-  background-image: url('https://static.mobly.com.br/p/Fran-Adesivo-Papel-de-Parede-Romantico-Mod-012-60x300cm-1905-2815401-3-zoom.jpg'); /* Substitua pelo caminho real da sua imagem de corações */
-  background-size: cover;
-  background-blend-mode: overlay;
-  border: 1px solid #ddd;
-  padding: 20px;
-  margin: 20px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-  max-width: 600px;
-  width: 80%;
-  text-align: justify;
-  display: none;
-}
-
-.page img {
-  max-width: 100%; /* Ajuste o valor conforme necessário */
-  height: auto;
-}
-
-#prev-page, #next-page {
-  background-color: #e280e2;
-  color: rgb(0, 0, 0);
-  padding: 10px 20px;
-  border: none;
-  text-decoration: none;
-  font-family: Cursive, sans-serif; /* Substitua 'Cursive' pela fonte desejada */
-  font-size: 21px; /* Substitua pelo tamanho desejado */
-  font-weight: bold;
-  margin: 5px;
-  cursor: pointer;
-}
-
-h2, p {
-  font-family: Cursive, sans-serif; /* Substitua 'Cursive' pela fonte desejada */
-  font-size: 18px; /* Substitua pelo tamanho desejado */
-  font-weight: bold;
-}
-h2{
-  font-family: Cursive, sans-serif; /* Substitua 'Cursive' pela fonte desejada */
-  font-size: 25px; /* Substitua pelo tamanho desejado */
-}
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ffe6e6;
+    background-image: url('https://static.mobly.com.br/p/Fran-Adesivo-Papel-de-Parede-Romantico-Mod-012-60x300cm-1905-2815401-3-zoom.jpg'); /* Substitua pelo caminho real da sua imagem de corações */
+    background-size: cover;
+    background-blend-mode: overlay;
+    text-align: center;
+  }
+  
+  #book-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 120vh;
+  }
+  
+  .page {
+    background-color: #ffe6e6;
+    background-image: url('https://static.mobly.com.br/p/Fran-Adesivo-Papel-de-Parede-Romantico-Mod-012-60x300cm-1905-2815401-3-zoom.jpg'); /* Substitua pelo caminho real da sua imagem de corações */
+    background-size: cover;
+    background-blend-mode: overlay;
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    width: 80%;
+    text-align: justify;
+    display: none;
+  }
+  
+  .page img {
+    max-width: 100%; /* Ajuste o valor conforme necessário */
+    height: auto;
+  }
+  
+  #prev-page, #next-page {
+    background-color: #e280e2;
+    color: rgb(0, 0, 0);
+    padding: 10px 20px;
+    border: none;
+    text-decoration: none;
+    font-family: Cursive, sans-serif; /* Substitua 'Cursive' pela fonte desejada */
+    font-size: 21px; /* Substitua pelo tamanho desejado */
+    font-weight: bold;
+    margin: 5px;
+    cursor: pointer;
+  }
+  
+  h2, p {
+    font-family: Cursive, sans-serif; /* Substitua 'Cursive' pela fonte desejada */
+    font-size: 18px; /* Substitua pelo tamanho desejado */
+    font-weight: bold;
+  }
+  h2{
+    font-family: Cursive, sans-serif; /* Substitua 'Cursive' pela fonte desejada */
+    font-size: 25px; /* Substitua pelo tamanho desejado */
+  }
