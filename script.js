@@ -14,7 +14,23 @@ function changePage(offset) {
   if (nextPage >= 1 && nextPage <= totalPages) {
     showPage(nextPage);
   }
+  var videos = document.querySelectorAll('.page video');
+    videos.forEach(function(video) {
+      video.pause();
+    });
+
 }
 
+document.addEventListener('visibilitychange', function() {
+  if (document.hidden) {
+    // Pausa o vídeo quando a página está oculta
+    var videos = document.querySelectorAll('.page video');
+      videos.forEach(function(video) {
+        video.pause();
+      });
+  }
+});
+
+  
 // Exiba a primeira página ao carregar o site
 showPage(1);
