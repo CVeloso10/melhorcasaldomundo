@@ -1,123 +1,90 @@
 body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #ffe6e6;
-    background-image: url('https://static.mobly.com.br/p/Fran-Adesivo-Papel-de-Parede-Romantico-Mod-012-60x300cm-1905-2815401-3-zoom.jpg'); /* Substitua pelo caminho real da sua imagem de corações */
-    background-size: cover;
-    background-blend-mode: overlay;
-    text-align: center;
-  }
-  
-  #book-container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    height: 127vh;
-  }
-  
-  .page {
-    background-color: #ffe6e6;
-    background-image: url('https://static.mobly.com.br/p/Fran-Adesivo-Papel-de-Parede-Romantico-Mod-012-60x300cm-1905-2815401-3-zoom.jpg'); /* Substitua pelo caminho real da sua imagem de corações */
-    background-size: cover;
-    background-blend-mode: overlay;
-    border: 1px solid #ddd;
-    padding: 20px;
-    margin: 20px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    max-width: 600px;
-    width: 80%;
-    text-align: justify;
-    display: none;
-    border-radius: 10px;
-  }
-  .data {
-    text-align: right;
-  }
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #ffe6e6;
+  background-image: url('https://static.mobly.com.br/p/Fran-Adesivo-Papel-de-Parede-Romantico-Mod-012-60x300cm-1905-2815401-3-zoom.jpg');
+  background-size: cover;
+  background-blend-mode: overlay;
+  text-align: center;
+}
 
-  .page img {
-    max-width: 100%; /* Ajuste o valor conforme necessário */
-    height: auto;
-    border-radius: 10px;
-  }
-  .page video {
-    border-radius: 10px;
-  }
+#book-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
 
-  .video {
-    display: block;
-    margin: 0 auto;
-  }
-  #page16 img {
-    margin: 2px;
-  }
-  
-  .images-row1, .images-row2 {
-    display: flex;
-    justify-content: space-between;
-    width: 100%; /* Ajuste conforme necessário */
-    margin: 0 auto; /* Centraliza a linha de imagens na página */
-  }
-  
-  #Imagem-16-2,#Imagem-16-4 {
-    display: block;
-    margin-left: auto;
-    margin-right: 0;
-    width: 45%; /* Garante que a imagem tenha a mesma largura que as outras */
-  }
-  #Imagem-16-1,#Imagem-16-3 {
-    display: block;
-    margin-left: 0;
-    margin-right: auto;
-    width: 45%; /* Garante que a imagem tenha a mesma largura que as outras */
-  }
-  #page23 h2 {
-    text-align: center;
-  }
+.page {
+  background-color: #ffe6e6;
+  background-image: url('https://static.mobly.com.br/p/Fran-Adesivo-Papel-de-Parede-Romantico-Mod-012-60x300cm-1905-2815401-3-zoom.jpg');
+  background-size: cover;
+  background-blend-mode: overlay;
+  border: 1px solid #ddd;
+  padding: 20px;
+  margin: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  max-width: 600px;
+  width: 80%;
+  text-align: justify;
+  display: none;
+  border-radius: 10px;
+}
 
-  #prev-page, #next-page {
-    background-color: #ff96ed;
-    color: rgb(0, 0, 0);
-    padding: 5px;
-    width: 190px; 
-    height: 40px;
-    border: none;
-    text-decoration: none;
-    font-family: Cursive, sans-serif; /* Substitua 'Cursive' pela fonte desejada */
-    font-size: 21px; /* Substitua pelo tamanho desejado */
-    font-weight: bold;
-    margin: 5px;
-    cursor: pointer;
-    transition: background .3s;
-    border-radius: 10px;
-  }
-  #prev-page:hover, #next-page:hover {
-    background-color: #ffa7f0;
-  }
-  #prev-page:active, #next-page:active {
-    background-color: #be7cb3;
-  }
+.page img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
 
-  
-  h2, p {
-    font-family: Cursive, sans-serif; /* Substitua 'Cursive' pela fonte desejada */
-    font-size: 18px; /* Substitua pelo tamanho desejado */
-    font-weight: bold;
-  }
-  h2{
-    font-family: Cursive, sans-serif; /* Substitua 'Cursive' pela fonte desejada */
-    font-size: 25px; /* Substitua pelo tamanho desejado */
-  }
-  nav {
-    
-    padding: 0px;
-    position:relative;
-    top: 0;
-    z-index: 100;
-  }
-  footer {
-    text-align: center;
-    padding: 30px;
-    position: relative;
-  }
+.page video {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.images-row1,
+.images-row2 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 0 auto;
+}
+
+#Imagem-16-1,
+#Imagem-16-2,
+#Imagem-16-3,
+#Imagem-16-4 {
+  width: 100%;
+  margin: 5px 0;
+}
+
+#page23 h2 {
+  text-align: center;
+}
+
+#prev-page,
+#next-page {
+  background-color: #ff96ed;
+  color: rgb(0, 0, 0);
+  padding: 5px;
+  width: 100%; /* Ocupa a largura total do contêiner */
+  max-width: 200px; /* Define uma largura máxima */
+  height: 40px;
+  border: none;
+  text-decoration: none;
+  font-family: Cursive, sans-serif;
+  font-size: 21px;
+  font-weight: bold;
+  margin: 5px;
+  cursor: pointer;
+  transition: background .3s;
+  border-radius: 10px;
+}
+
+footer {
+  text-align: center;
+  padding: 10px;
+}
